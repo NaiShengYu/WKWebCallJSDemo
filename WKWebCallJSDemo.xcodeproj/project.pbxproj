@@ -15,6 +15,8 @@
 		C901EEB92186D79900176C83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C901EEB82186D79900176C83 /* main.m */; };
 		C901EEC32186D79900176C83 /* WKWebCallJSDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C901EEC22186D79900176C83 /* WKWebCallJSDemoTests.m */; };
 		C901EECE2186D79900176C83 /* WKWebCallJSDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C901EECD2186D79900176C83 /* WKWebCallJSDemoUITests.m */; };
+		C901EEDD2186D7BB00176C83 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = C901EEDB2186D7BB00176C83 /* index.html */; };
+		C901EEDE2186D7BB00176C83 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = C901EEDC2186D7BB00176C83 /* index.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		C901EEC92186D79900176C83 /* WKWebCallJSDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKWebCallJSDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C901EECD2186D79900176C83 /* WKWebCallJSDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebCallJSDemoUITests.m; sourceTree = "<group>"; };
 		C901EECF2186D79900176C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C901EEDB2186D7BB00176C83 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		C901EEDC2186D7BB00176C83 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				C901EEAA2186D79600176C83 /* AppDelegate.m */,
 				C901EEAC2186D79600176C83 /* ViewController.h */,
 				C901EEAD2186D79600176C83 /* ViewController.m */,
+				C901EEDB2186D7BB00176C83 /* index.html */,
+				C901EEDC2186D7BB00176C83 /* index.js */,
 				C901EEAF2186D79600176C83 /* Main.storyboard */,
 				C901EEB22186D79900176C83 /* Assets.xcassets */,
 				C901EEB42186D79900176C83 /* LaunchScreen.storyboard */,
@@ -235,7 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C901EEDE2186D7BB00176C83 /* index.js in Resources */,
 				C901EEB62186D79900176C83 /* LaunchScreen.storyboard in Resources */,
+				C901EEDD2186D7BB00176C83 /* index.html in Resources */,
 				C901EEB32186D79900176C83 /* Assets.xcassets in Resources */,
 				C901EEB12186D79600176C83 /* Main.storyboard in Resources */,
 			);
